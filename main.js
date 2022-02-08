@@ -52,11 +52,11 @@ function addStar() {
 
 Array(200).fill().forEach(addStar);
 
-const spaceTexture = new THREE.TextureLoader().load('https://github.com/Kermit1321/Portfolio/blob/e16dec5fc42c6cd500f08f1e058ab652d5223a36/space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('https://github.com/Kermit1321/Portfolio/raw/master/e16dec5fc42c6cd500f08f1e058ab652d5223a36/space.jpg');
 scene.background = spaceTexture;
 
-const moonTexture = new THREE.TextureLoader().load('https://github.com/Kermit1321/Portfolio/blob/e16dec5fc42c6cd500f08f1e058ab652d5223a36/moon.jpg');
-const normalTexture = new THREE.TextureLoader().load('https://github.com/Kermit1321/Portfolio/blob/e16dec5fc42c6cd500f08f1e058ab652d5223a36/normal.jpg');
+const moonTexture = new THREE.TextureLoader().load('https://github.com/Kermit1321/Portfolio/raw/master/e16dec5fc42c6cd500f08f1e058ab652d5223a36/moon.jpg');
+const normalTexture = new THREE.TextureLoader().load('https://github.com/Kermit1321/Portfolio/raw/master/e16dec5fc42c6cd500f08f1e058ab652d5223a36/normal.jpg');
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
